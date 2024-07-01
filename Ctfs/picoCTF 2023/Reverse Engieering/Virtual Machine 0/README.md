@@ -13,7 +13,7 @@ but from there I was confused and stuck for a while. I looked at the challenge h
 ![After Disassemble](workfolder/after_disassemble.png)
 
 2) The task description states that "the rotation of the red axle is input and the rotation of the blue axle is output", and the hint states that "rotating the axle that number of times is obviously not feasible", all this info indicates that the input file which contains a long decimal number must be the amount of times to rotate the input gear, which is the pink gear.
-3) There are 8 teeth on the small gear, while there's 40 on the large gear. That means the gear ratio os 40/8 = 5, so for every full rotation of the big gear, the small gear will rotate 5 times. This is surely what is meant by the mathematical relation in the task description or rather the hint in the task.
+3) There are 8 teeth on the small gear, while there's 40 on the large gear. That means the gear ratio is 40/8 = 5, so for every full rotation of the big gear, the small gear will rotate 5 times. This is surely what is meant by the mathematical relation in the task description or rather the hint in the task.
 4) So if we take the number in the input file and multiply by 5 we get a huge number which theoretically should represent the amount of times the big gear has rotated when the small one has rotated the amount of times that is shown in the input.
 5) This number turns out to be:
 ```python
