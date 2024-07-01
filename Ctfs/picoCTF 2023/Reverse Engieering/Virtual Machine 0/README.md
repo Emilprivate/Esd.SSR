@@ -8,6 +8,7 @@
 ## Steps:
 1) So for this challenge we're given a .dae file which is a COLLADA file that stands for digital asset exchange. Essentially it's a 3D model. Doing this challenge I managed to load it into an online 3D viewer
 ![Before Disassemble](workfolder/before_disassemble.png)
+
 but from there I was confused and stuck for a while. I looked at the challenge hint which pointed at creating some kind of mathematical model, this iddn't really help me that much. Eventually I gave up and looked at a writeup for this challenge. I was only interested in what to do after this step. After reading that disassembling the model would be required, I figured out why two specific gears were colored and the result was black. There was a relation between  the big gear colored in yellow and the small gear colored in pink. 
 ![After Disassemble](workfolder/after_disassemble.png)
 2) The task description states that "the rotation of the red axle is input and the rotation of the blue axle is output", and the hint states that "rotating the axle that number of times is obviously not feasible", all this info indicates that the input file which contains a long decimal number must be the amount of times to rotate the input gear, which is the pink gear.
