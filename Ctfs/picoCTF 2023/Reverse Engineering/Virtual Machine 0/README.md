@@ -14,7 +14,7 @@ but from there I was confused and stuck for a while. I looked at the challenge h
 
 2) The task description states that "the rotation of the red axle is input and the rotation of the blue axle is output", and the hint states that "rotating the axle that number of times is obviously not feasible", all this info indicates that the input file which contains a long decimal number must be the amount of times to rotate the input gear, which is the pink gear.
 3) There are 8 teeth on the small gear, while there's 40 on the large gear. That means the gear ratio is 40/8 = 5, so for every full rotation of the big gear, the small gear will rotate 5 times. This is surely what is meant by the mathematical relation in the task description or rather the hint in the task.
-4) So if we take the number in the input file and multiply by 5 we get a huge number which theoretically should represent the amount of times the big gear has rotated when the small one has rotated the amount of times that is shown in the input.
+4) So if we take the number in the input file and multiply by 5 we get a huge number which theoretically should represent the amount of times the small gear has rotated when the large one has rotated the amount of times that is shown in the input file.
 5) This number turns out to be:
 ```python
 >>> 39722847074734820757600524178581224432297292490103995916782275668358702105*5 = 198614235373674103788002620892906122161486462450519979583911378341793510525
