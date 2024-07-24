@@ -32,6 +32,9 @@ At the very bottom of the output I saw "UPX!" and that confirmed the compression
 
 In the image above we've disassembled the main function. In it there's a cmp instruction pointed to by a red arrow. This compares a hexadecimal value presumable to check the gussed number. If we convert this to decimal we get `754635`.
 
+This can also be seen using Ghidra in the image below where the code has been decompiled to pseudocode making it easier to read. 
+![Ghidra preview](ghidra.png)
+
 5) Entering this number when running the application gives us the flag:
 ```
 ./unpackme-upx
