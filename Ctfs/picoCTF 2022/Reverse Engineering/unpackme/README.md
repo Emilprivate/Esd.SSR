@@ -30,7 +30,7 @@ At the very bottom of the output I saw "UPX!" and that confirmed the compression
 ```disassemble main```
 ![Disassembled main](disassemble_of_main.png)
 
-In the image above we've disassembled the main function. In it there's a cmp instruction pointed to by a red arrow. This compares a hexadecimal value presumable to check the gussed number. If we convert this to decimal we get `754635`.
+In the image above we've disassembled the main function. In it there's a cmp instruction pointed to by a red arrow. This compares a hexadecimal value presumably to check the guessed number. If we convert this to decimal we get `754635`.
 
 This can also be seen using Ghidra in the image below where the code has been decompiled to pseudocode making it easier to read. 
 ![Ghidra preview](ghidra.png)
