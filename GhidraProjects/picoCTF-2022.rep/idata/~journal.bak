@@ -1,0 +1,4 @@
+FADD:/NewFolder
+FMV:/NewFolder:/bbbbloat
+IADD:00000000:/bbbbloat/bbbbloat
+IDSET:/bbbbloat/bbbbloat:7f011a9f77591883196337
