@@ -1,0 +1,5 @@
+IDEL:/unpackme-upx
+FADD:/NewFolder
+FDEL:/NewFolder
+IADD:00000001:/unpackme-upx
+IDSET:/unpackme-upx:7f0118e6715929234889710
