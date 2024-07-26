@@ -33,7 +33,7 @@
 
 ![](after_finish.png)
 
-- We can see that there's an interesting nearby call to `0x555555555209`, why is this interesting? Well if you look at the decoded main function, we can see that after getting the input from fgets which we just provided, there's a function call being made for cVar1, this as we previously mentioned is presumably some sort of validation function, so now we've dug our way to the function using GDB. Perhaps we can find the compare function we're interested in and see if any strings are interesting from there. So let's set a breakpoint and continue, `b *0x555555555209`, `c`.
+- We can see that there's an interesting nearby call to `0x555555555209`, why is this interesting? Well if you look at the decompiled main function, we can see that after getting the input from fgets which we just provided, there's a function call being made for cVar1, this as we previously mentioned is presumably some sort of validation function, so now we've dug our way to the function using GDB. Perhaps we can find the compare function we're interested in and see if any strings are interesting from there. So let's set a breakpoint and continue, `b *0x555555555209`, `c`.
 
 - Now that we're at our desired address, let's type `layout asm` and then `n` to continue to the next instruction and have more view of the memory region. Scrolling down we can notice the following instruction `0x555555555419  cmp    rax,0x24` which compares a size of `0x24` or `36` with the `rax` register. Let's try to set a breakpoint on this instruction and continue, `b *0x555555555419`, `c`.
 
