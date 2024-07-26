@@ -5,6 +5,7 @@
 ```chmod +x keygenme```
 
 - After running the application we see that we need a license:
+
 ![running_keygen](executing_keygen.png)
 
 - Opening this keygen in ghidra, we can locate one of the output strings under 'Defined strings' and follow the cross-reference to it and see the decompiled code of the main function:
