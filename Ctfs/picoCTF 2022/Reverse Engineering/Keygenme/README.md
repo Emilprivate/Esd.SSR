@@ -8,6 +8,7 @@
 ![running_keygen](executing_keygen.png)
 
 - Opening this keygen in ghidra, we can locate one of the output strings under 'Defined strings' and follow the cross-reference to it and see the decompiled code of the main function:
+
 ![defined_strings](defined_strings.png)
 ![cross_referenced_string](cross_reference_string.png)
 ![cross_referenced_code](cross_referenced_code.png)
