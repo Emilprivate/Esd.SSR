@@ -27,7 +27,21 @@
 
 ![functions](info_functions.png)
 
+- Let's try to utilize fgets to get to the main function and from there see what we can do. This can be done by setting a breakpoint at fgets by typing `b *fgets` and then `r` to run the application, this will break or pause the program when fgets is called. As we're not really interested in the intricacies of the fgets function, we can type `finish`to skip the fgets function which would then load the next instruction in the code, as a reference you can look at the decompiled main code to see where we are getting at.
 
+- Now that we've skipped the fgets function, we're being asked to provide the license key, in this specific case it doesn't really matter what kind of input you give here as we will just see where it leads us and see what other nearby instructions there are that could be of use.
+
+![](after_finish.png)
+
+- We can see that there's an interesting nearby call to `0x555555555209`, why is this interesting? Well if you look at the decoded main function, we can see that after getting the input from fgets which we just provided, there's a function call being made for cVar1, this as we previously mentioned is presumably some sort of validation function, so now we've dug our way to the function using GDB. Perhaps we can find the compare function we're interested in and see if any strings are interesting from there. So let's set a breakpoint and continue, `b *0x555555555209`, `c`.
+
+- Now that we're at our desired address, let's type `layout asm` and then `n` to continue to the next instruction and have more view of the memory region. Scrolling down we can notice the following instruction `0x555555555419  cmp    rax,0x24` which compares a size of `0x24` or `36` with the `rax` register. Let's try to set a breakpoint on this instruction and continue, `b *0x555555555419`, `c`.
+
+- Let's try now to see if there are any interesting strings here, `search "pico"`
+
+![](flag.png)
+
+And there we go, we found the flag :D
 
 ## Flag
 ```picoCTF{br1ng_y0ur_0wn_k3y_19836cd8}```
