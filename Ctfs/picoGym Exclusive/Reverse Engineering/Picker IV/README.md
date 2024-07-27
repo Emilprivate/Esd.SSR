@@ -1,7 +1,0 @@
-# Writeup for picoGym : Picker IV
-
-## Steps
-Running the application we're being told to enter the address of the function we want to execute. So if we just open the binary using gdn, run `info functions` and check what the address for the `win` function is, we could use that to get the flag, which is exactly what I did.
-
-## Flag:
-```picoCTF{n3v3r_jump_t0_u53r_5uppl13d_4ddr35535_01672a61}```
