@@ -1,4 +1,4 @@
 FADD:/NewFolder
-FMV:/NewFolder:/Keygenme
-IADD:00000003:/Keygenme/keygenme
-IDSET:/Keygenme/keygenme:7f0118d4d1309669943551
+FMV:/NewFolder:/unpackme
+IADD:00000004:/unpackme/unpackme-upx-decompressed
+IDSET:/unpackme/unpackme-upx-decompressed:7f011b11f17357108401209
