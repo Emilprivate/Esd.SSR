@@ -8,7 +8,7 @@
 
 ### Genymotion
 - With Genymotion I've downloaded the `Google Pixel XL` device emulator with Android 6.0 due to root restrictions on a personal use license of Genymotion. The reason we want root (only with 7.1 and over) is due to some certification injection we're gonna do later in the sessions, however, `Android 7.1` and over is only required due to some applications not supporting older Android versions, this should not be a problem as one is getting started.
-- It's important to enable USB debugging in Developer options of the emulator. Developer options can be enabled by tabbing "Buid number" under "About phone".
+- It's important to enable USB debugging in Developer options of the emulator. Developer options can be enabled by tabbing x7 on "Build number" under "About phone".
 
 ### ADB & Frida
 - Ensure that ADB is in your path environment (should be added automatically on linux atleast)
@@ -24,7 +24,7 @@
  - `adb push <name>.der /data/local/tmp/cert-der.crt` <-- We're renaming it to crt.
 
 ### universal-android-ssl-pinning-bypass-with-frida script
-- Push the script onto the device `adb push <script> /data/local/tmp
+- Push the script onto the device `adb push <script> /data/local/tmp`
 
 ### frida-server on the device
 - Check and run frida server on the device `adb shell /data/local/tmp/frida-server &`
