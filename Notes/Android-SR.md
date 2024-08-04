@@ -31,7 +31,7 @@
     `[1] 322142`
 
 - List all the running processes on the device `frida-ps -U`
-    ```
+```
      PID  Name
 ----  -----------------------------------
 1446  Calendar
@@ -89,7 +89,7 @@
  126  vold
  793  wpa_supplicant
  299  zygote
-    ```
+```
 - If the list of processes show up then everything is setup properly.
 
 ### Script injection to bypass certification pinning.
