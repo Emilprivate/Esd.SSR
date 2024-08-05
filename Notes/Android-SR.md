@@ -88,7 +88,8 @@ Now that the fundamental setup is done there are certain attack vectors that are
   - There is also **automated testing**, here one could test for IDOR (research it). The goal is to essentially test for broken access control. So make sure to test ALL the privilege levels. Included in automated testing is fuzzing, try to fuzz endpoints for command injection and identify some other endpoints to attack.
   - Make sure to register to the applications with the platform information of where the bug consists to ensure not getting blacklisted or getting the target app blacklisted for spam or something similar damaging.
 
-
-
+## Other resources
+- [Foundations of Hacking and Penetration Testing Android Apps - Series](https://www.youtube.com/playlist?list=PL2EF13wm-hWAr15jPUoS3pMmryfZiehxq)
+- [A Complete Guide to Android Bug Bounty Penetration Testing - Series](https://www.youtube.com/playlist?list=PL2EF13wm-hWCZgcUfFT3h4jCPaDsBbZ9F)
 
   
