@@ -53,44 +53,42 @@
 1970  com.android.webview:webview_service
 1089  com.genymotion.genyd
 1068  com.genymotion.systempatcher
- 292  debuggerd
- 290  diskiod
- 294  drmserver
-2600  frida-server
- 135  gatekeeperd
- 302  genybaseband
- 332  healthd
-   1  init
- 296  installd
- 297  keystore
- 279  lmkd
- 284  local_camera
- 285  local_camera
- 283  local_opengl
- 654  logcat
-2603  logcat
- 116  logd
- 286  logwrapper
- 295  mediaserver
- 291  netd
- 288  network_profile
- 136  perfprofd
- 134  redis
- 293  rild
- 841  sdcard
- 280  servicemanager
- 289  settingsd
- 650  sh
- 298  su
- 644  surfaceflinger
- 618  system_server
-  99  ueventd
- 282  vinput
- 126  vold
- 793  wpa_supplicant
- 299  zygote
+...
 ```
 - If the list of processes show up then everything is setup properly.
 
 ### Script injection to bypass certification pinning.
-`13.20` - in the first video.
+- Hook frida script into the application - `frida -U -f <application> -l <path_to_fridascript.js> --no-paus`
+
+### Attack strategies & Bug bounty fundamentals
+Now that the fundamental setup is done there are certain attack vectors that are important to know about and how bug-bounties in general are conducted.
+
+**Bug bounty fundamentals**
+- Always build a POC (proof of concept) before reporting!
+- Start with VDP (vulnerability disclosure programs) to get points, they usually don't pay. This is because you can get feedback and be invited to private programs or groups + experience. Wait till the paid programs follow and apply your knowledge.
+
+**Attack strategy**
+- Static code analysis:
+  - 
+- Dynamic hacking
+  - Running the application and seeing what requests are being sent to the server.
+  - API testing is a good choice.
+  - Some applications run on web-view (JS) so XSS is valid! Test on all inputs!
+  - Fully explore manually and make a mind map of the application.
+  - Look into swagger documentation if available for the API.
+  - Read if there are any manuals.
+  - Have burp suite proxy run in the background and make requests.
+    - Click "target" -> "Site map" you can have a filter by clicking the bar at the top and then select "Show only parameterized requests".
+    - This way we can manipulate the parameter requests or just analyze.
+    - This can be done by sending post requests with postid's and check the response.
+    - We could change the order of requests and see what happens.
+    - Look for vulnerability and behaviour that isn't expected interms of business logic.
+    - If there's a parameter in the response and not in the request, then try to send a request with that parameter and see what happens.
+  - Any parameters that seems to contain a URL. If the target resolves the URL that is being entered, it might be vulnerable to SSRF.
+  - There is also **automated testing**, here one could test for IDOR (research it). The goal is to essentially test for broken access control. So make sure to test ALL the privilege levels. Included in automated testing is fuzzing, try to fuzz endpoints for command injection and identify some other endpoints to attack.
+  - Make sure to register to the applications with the platform information of where the bug consists to ensure not getting blacklisted or getting the target app blacklisted for spam or something similar damaging.
+
+
+
+
+  
