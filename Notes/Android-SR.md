@@ -89,7 +89,8 @@ Now that the fundamental setup is done there are certain attack vectors that are
   - Make sure to register to the applications with the platform information of where the bug consists to ensure not getting blacklisted or getting the target app blacklisted for spam or something similar damaging.
 
 ## Other resources
-- [Foundations of Hacking and Penetration Testing Android Apps - Series](https://www.youtube.com/playlist?list=PL2EF13wm-hWAr15jPUoS3pMmryfZiehxq)
-- [A Complete Guide to Android Bug Bounty Penetration Testing - Series](https://www.youtube.com/playlist?list=PL2EF13wm-hWCZgcUfFT3h4jCPaDsBbZ9F)
-
+- [A step-by-step Android penetration testing guide - Hackthebox](https://www.hackthebox.com/blog/intro-to-mobile-pentesting)
+- [Android Pentesting 101 - Medium](https://medium.com/@srkasthuri/android-pentesting-101-a-novices-handbook-to-getting-started-8f56f877f418)
+- [Foundations of Hacking and Penetration Testing Android Apps - YT-Series](https://www.youtube.com/playlist?list=PL2EF13wm-hWAr15jPUoS3pMmryfZiehxq)
+- [A Complete Guide to Android Bug Bounty Penetration Testing - YT-Series](https://www.youtube.com/playlist?list=PL2EF13wm-hWCZgcUfFT3h4jCPaDsBbZ9F)
   
