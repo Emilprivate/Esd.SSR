@@ -1,21 +1,20 @@
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
-
 class VaultDoor5 {
     public static void main(String args[]) {
         VaultDoor5 vaultDoor = new VaultDoor5();
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter vault password: ");
         String userInput = scanner.next();
-	String input = userInput.substring("picoCTF{".length(),userInput.length()-1);
-	if (vaultDoor.checkPassword(input)) {
-	    System.out.println("Access granted.");
-	} else {
-	    System.out.println("Access denied!");
+  
+        String input = userInput.substring("picoCTF{".length(),userInput.length()-1);
+	          if (vaultDoor.checkPassword(input)) {
+	              System.out.println("Access granted.");
+            } else {
+                System.out.println("Access denied!");
         }
     }
-
     // Minion #7781 used base 8 and base 16, but this is base 64, which is
     // like... eight times stronger, right? Riiigghtt? Well that's what my twin
     // brother Minion #2415 says, anyway.
@@ -44,22 +43,22 @@ class VaultDoor5 {
     }
 
     public String urlDecode(String input) {
-    StringBuilder output = new StringBuilder();
+        StringBuilder output = new StringBuilder();
 
-    // Process the encoded string
-    for (int i = 0; i < input.length(); i += 3) {
-        // Extract the two hex digits after the '%'
-        String hex = input.substring(i + 1, i + 3);
+        // Process the encoded string
+        for (int i = 0; i < input.length(); i += 3) {
+            // Extract the two hex digits after the '%'
+            String hex = input.substring(i + 1, i + 3);
 
-        // Convert the hex string to a byte
-        int byteValue = Integer.parseInt(hex, 16);
+            // Convert the hex string to a byte
+            int byteValue = Integer.parseInt(hex, 16);
 
-        // Append the corresponding character to the output string
-        output.append((char) byteValue);
+            // Append the corresponding character to the output string
+            output.append((char) byteValue);
+        }
+
+        return output.toString();
     }
-
-    return output.toString();
-}
 
     public boolean checkPassword(String password) {
         String urlEncoded = urlEncode(password.getBytes());
@@ -69,6 +68,7 @@ class VaultDoor5 {
                         + "JTM0JTVmJTM4JTM0JTY2JTY0JTM1JTMwJTM5JTM1";
         
         
+
         byte[] decoded = base64Decode(expected);
         String decodedString = new String(decoded, StandardCharsets.UTF_8);
         

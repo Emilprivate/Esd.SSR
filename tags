@@ -110,6 +110,13 @@ Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^## Flag:$/;
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-4
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-5
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-training
+Flag:	Ctfs/picoCTF 2019/Web Exploitation/Client-side-again/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : Client-side-again
+Flag:	Ctfs/picoCTF 2019/Web Exploitation/Irish-Name-Repo 1/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : Irish-Name-Repo 1
+Flag:	Ctfs/picoCTF 2019/Web Exploitation/Irish-Name-Repo 2/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : Irish-Name-Repo 2
+Flag:	Ctfs/picoCTF 2019/Web Exploitation/dont-use-client-side/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : dont-use-client-side
+Flag:	Ctfs/picoCTF 2019/Web Exploitation/insp3ct0r/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : insp3ct0r
+Flag:	Ctfs/picoCTF 2019/Web Exploitation/logon/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : logon
+Flag:	Ctfs/picoCTF 2019/Web Exploitation/where are the robots/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : where are the robots
 Flag:	Ctfs/picoCTF 2022/Reverse Engineering/Bbbbloat/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF-2022 : Bbbbloat
 Flag:	Ctfs/picoCTF 2022/Reverse Engineering/GDB Test Drive/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF-2022 : GDB Test Drive
 Flag:	Ctfs/picoCTF 2022/Reverse Engineering/Safe Opener/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2022 : Safe Opener
@@ -155,6 +162,13 @@ Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^## Steps:$
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-4
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-5
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-training
+Steps:	Ctfs/picoCTF 2019/Web Exploitation/Client-side-again/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : Client-side-again
+Steps:	Ctfs/picoCTF 2019/Web Exploitation/Irish-Name-Repo 1/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : Irish-Name-Repo 1
+Steps:	Ctfs/picoCTF 2019/Web Exploitation/Irish-Name-Repo 2/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : Irish-Name-Repo 2
+Steps:	Ctfs/picoCTF 2019/Web Exploitation/dont-use-client-side/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : dont-use-client-side
+Steps:	Ctfs/picoCTF 2019/Web Exploitation/insp3ct0r/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : insp3ct0r
+Steps:	Ctfs/picoCTF 2019/Web Exploitation/logon/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : logon
+Steps:	Ctfs/picoCTF 2019/Web Exploitation/where are the robots/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : where are the robots
 Steps:	Ctfs/picoCTF 2022/Reverse Engineering/Bbbbloat/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF-2022 : Bbbbloat
 Steps:	Ctfs/picoCTF 2022/Reverse Engineering/GDB Test Drive/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF-2022 : GDB Test Drive
 Steps:	Ctfs/picoCTF 2022/Reverse Engineering/Safe Opener/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2022 : Safe Opener
@@ -198,13 +212,20 @@ VaultDoor3	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/workfolder/VaultDo
 VaultDoor4	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/workfolder/VaultDoor4.java	/^class VaultDoor4 {$/;"	c
 VaultDoor5	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^class VaultDoor5 {$/;"	c
 VaultDoorTraining	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/workfolder/VaultDoorTraining.java	/^class VaultDoorTraining {$/;"	c
+Writeup for picoCTF 2019 : Client-side-again	Ctfs/picoCTF 2019/Web Exploitation/Client-side-again/README.md	/^# Writeup for picoCTF 2019 : Client-side-again$/;"	c
+Writeup for picoCTF 2019 : Irish-Name-Repo 1	Ctfs/picoCTF 2019/Web Exploitation/Irish-Name-Repo 1/README.md	/^# Writeup for picoCTF 2019 : Irish-Name-Repo 1$/;"	c
+Writeup for picoCTF 2019 : Irish-Name-Repo 2	Ctfs/picoCTF 2019/Web Exploitation/Irish-Name-Repo 2/README.md	/^# Writeup for picoCTF 2019 : Irish-Name-Repo 2$/;"	c
 Writeup for picoCTF 2019 : asm1	Ctfs/picoCTF 2019/Reverse Engineering/asm1/README.md	/^# Writeup for picoCTF 2019 : asm1$/;"	c
 Writeup for picoCTF 2019 : asm2	Ctfs/picoCTF 2019/Reverse Engineering/asm2/README.md	/^# Writeup for picoCTF 2019 : asm2$/;"	c
 Writeup for picoCTF 2019 : asm3	Ctfs/picoCTF 2019/Reverse Engineering/asm3/README.md	/^# Writeup for picoCTF 2019 : asm3$/;"	c
+Writeup for picoCTF 2019 : dont-use-client-side	Ctfs/picoCTF 2019/Web Exploitation/dont-use-client-side/README.md	/^# Writeup for picoCTF 2019 : dont-use-client-side$/;"	c
+Writeup for picoCTF 2019 : insp3ct0r	Ctfs/picoCTF 2019/Web Exploitation/insp3ct0r/README.md	/^# Writeup for picoCTF 2019 : insp3ct0r$/;"	c
+Writeup for picoCTF 2019 : logon	Ctfs/picoCTF 2019/Web Exploitation/logon/README.md	/^# Writeup for picoCTF 2019 : logon$/;"	c
 Writeup for picoCTF 2019 : vault-door-1	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-1/README.md	/^# Writeup for picoCTF 2019 : vault-door-1$/;"	c
 Writeup for picoCTF 2019 : vault-door-4	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/README.md	/^# Writeup for picoCTF 2019 : vault-door-4$/;"	c
 Writeup for picoCTF 2019 : vault-door-5	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/README.md	/^# Writeup for picoCTF 2019 : vault-door-5$/;"	c
 Writeup for picoCTF 2019 : vault-door-training	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/README.md	/^# Writeup for picoCTF 2019 : vault-door-training$/;"	c
+Writeup for picoCTF 2019 : where are the robots	Ctfs/picoCTF 2019/Web Exploitation/where are the robots/README.md	/^# Writeup for picoCTF 2019 : where are the robots$/;"	c
 Writeup for picoCTF 2019: Vault Door 3	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^# Writeup for picoCTF 2019: Vault Door 3$/;"	c
 Writeup for picoCTF 2022 : Safe Opener	Ctfs/picoCTF 2022/Reverse Engineering/Safe Opener/README.md	/^# Writeup for picoCTF 2022 : Safe Opener$/;"	c
 Writeup for picoCTF 2022 : patchme.py	Ctfs/picoCTF 2022/Reverse Engineering/patchme.py/README.md	/^# Writeup for picoCTF 2022 : patchme.py$/;"	c
