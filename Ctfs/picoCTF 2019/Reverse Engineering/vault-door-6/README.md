@@ -21,7 +21,7 @@ Convert the result to a character and collect it to form the original password s
         
         String flag = new String(passChars);
         System.out.println("The password is: " + flag);
-
+```
 Remember to still pass 32 characters as required in the main function, however, this could also be altered.
 
 ```
