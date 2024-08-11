@@ -13,14 +13,14 @@ XOR each byte with 0x55 to retrieve the original character.
 Convert the result to a character and collect it to form the original password string.
 
 ```java
-        char[] passChars = new char[myBytes.length];
-        
-        for (int i = 0; i < myBytes.length; i++) {
-            passChars[i] = (char) (myBytes[i] ^ 0x55);
-        }
-        
-        String flag = new String(passChars);
-        System.out.println("The password is: " + flag);
+char[] passChars = new char[myBytes.length];
+
+for (int i = 0; i < myBytes.length; i++) {
+    passChars[i] = (char) (myBytes[i] ^ 0x55);
+}
+
+String flag = new String(passChars);
+System.out.println("The password is: " + flag);
 ```
 
 Remember to still pass 32 characters as required in the main function, however, this could also be altered.
