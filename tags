@@ -112,6 +112,7 @@ Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^## Flag:$/;
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-4
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-5
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-6/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-6
+Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-8/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-8
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-training
 Flag:	Ctfs/picoCTF 2019/Web Exploitation/Client-side-again/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : Client-side-again
 Flag:	Ctfs/picoCTF 2019/Web Exploitation/Irish-Name-Repo 1/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : Irish-Name-Repo 1
@@ -170,6 +171,7 @@ Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^## Steps:$
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-4
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-5
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-6/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-6
+Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-8/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-8
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-training
 Steps:	Ctfs/picoCTF 2019/Web Exploitation/Client-side-again/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : Client-side-again
 Steps:	Ctfs/picoCTF 2019/Web Exploitation/Irish-Name-Repo 1/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : Irish-Name-Repo 1
@@ -224,6 +226,7 @@ VaultDoor3	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/workfolder/VaultDo
 VaultDoor4	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/workfolder/VaultDoor4.java	/^class VaultDoor4 {$/;"	c
 VaultDoor5	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^class VaultDoor5 {$/;"	c
 VaultDoor6	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-6/workfolder/VaultDoor6.java	/^class VaultDoor6 {$/;"	c
+VaultDoor8	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-8/workfolder/VaultDoor8.java	/^class VaultDoor8 {$/;"	c
 VaultDoorTraining	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/workfolder/VaultDoorTraining.java	/^class VaultDoorTraining {$/;"	c
 Writeup for picoCTF 2019 : Client-side-again	Ctfs/picoCTF 2019/Web Exploitation/Client-side-again/README.md	/^# Writeup for picoCTF 2019 : Client-side-again$/;"	c
 Writeup for picoCTF 2019 : Irish-Name-Repo 1	Ctfs/picoCTF 2019/Web Exploitation/Irish-Name-Repo 1/README.md	/^# Writeup for picoCTF 2019 : Irish-Name-Repo 1$/;"	c
@@ -242,6 +245,7 @@ Writeup for picoCTF 2019 : vault-door-1	Ctfs/picoCTF 2019/Reverse Engineering/va
 Writeup for picoCTF 2019 : vault-door-4	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/README.md	/^# Writeup for picoCTF 2019 : vault-door-4$/;"	c
 Writeup for picoCTF 2019 : vault-door-5	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/README.md	/^# Writeup for picoCTF 2019 : vault-door-5$/;"	c
 Writeup for picoCTF 2019 : vault-door-6	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-6/README.md	/^# Writeup for picoCTF 2019 : vault-door-6$/;"	c
+Writeup for picoCTF 2019 : vault-door-8	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-8/README.md	/^# Writeup for picoCTF 2019 : vault-door-8$/;"	c
 Writeup for picoCTF 2019 : vault-door-training	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/README.md	/^# Writeup for picoCTF 2019 : vault-door-training$/;"	c
 Writeup for picoCTF 2019 : where are the robots	Ctfs/picoCTF 2019/Web Exploitation/where are the robots/README.md	/^# Writeup for picoCTF 2019 : where are the robots$/;"	c
 Writeup for picoCTF 2019: Vault Door 3	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^# Writeup for picoCTF 2019: Vault Door 3$/;"	c
@@ -305,6 +309,7 @@ checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/workfolder/Vaul
 checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/workfolder/VaultDoor4.java	/^    public boolean checkPassword(String password) {$/;"	m	class:VaultDoor4
 checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^    public boolean checkPassword(String password) {$/;"	m	class:VaultDoor5
 checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-6/workfolder/VaultDoor6.java	/^    public boolean checkPassword(String password) {$/;"	m	class:VaultDoor6
+checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-8/workfolder/VaultDoor8.java	/^  public boolean checkPassword(String password) {$/;"	m	class:VaultDoor8
 checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/workfolder/VaultDoorTraining.java	/^    public boolean checkPassword(String password) {$/;"	m	class:VaultDoorTraining
 check_condition	Ctfs/picoCTF 2019/Reverse Engineering/asm4/workfolder/test_cleaned.S	/^check_condition:$/;"	l
 check_table	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def check_table():$/;"	f
@@ -351,6 +356,7 @@ main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/workfolder/VaultDoor3.ja
 main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/workfolder/VaultDoor4.java	/^    public static void main(String args[]) {$/;"	m	class:VaultDoor4
 main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^    public static void main(String args[]) {$/;"	m	class:VaultDoor5
 main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-6/workfolder/VaultDoor6.java	/^    public static void main(String args[]) {$/;"	m	class:VaultDoor6
+main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-8/workfolder/VaultDoor8.java	/^  public static void main(String args[]) {$/;"	m	class:VaultDoor8
 main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/workfolder/VaultDoorTraining.java	/^    public static void main(String args[]) {$/;"	m	class:VaultDoorTraining
 main	Ctfs/picoCTF 2022/Reverse Engineering/Safe Opener/workfolder/SafeOpener.java	/^    public static void main(String args[]) throws IOException {$/;"	m	class:SafeOpener
 main	Ctfs/picoGym Exclusive/Binary Exploitation/Local Target/workfolder/local-target.c	/^int main(){$/;"	f	typeref:typename:int
@@ -366,10 +372,13 @@ read_variable	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/p
 reset_table	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def reset_table():$/;"	f
 result	Ctfs/picoCTF 2019/Reverse Engineering/asm2/workfolder/calc.py	/^result = asm2(param1=0xb, param2=0x2e)$/;"	v
 save_config	Ctfs/Tools/ctf_setup.py	/^def save_config(config):$/;"	f
+scramble	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-8/workfolder/VaultDoor8.java	/^  public char[] scramble(String password) {$/;"	m	class:VaultDoor8
 shouldRun	Ctfs/Tools/ghidra.py	/^def shouldRun():$/;"	f
 str_xor	Ctfs/picoCTF 2022/Reverse Engineering/patchme.py/workfolder/patchme.flag.py	/^def str_xor(secret, key):$/;"	f
+switchBits	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-8/workfolder/VaultDoor8.java	/^  public char switchBits(char c, int p1, int p2) {$/;"	m	class:VaultDoor8
 uniquify	Ctfs/Tools/ghidra.py	/^def uniquify(path, sep = ''):$/;"	f
 universal-android-ssl-pinning-bypass-with-frida script	Notes/Android-SR.md	/^### universal-android-ssl-pinning-bypass-with-frida script$/;"	S	section:My notes collection for Android Security Research""4. Aug 2024
+unscramble	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-8/workfolder/VaultDoor8.java	/^  public char[] unscramble(char[] scrambledPassword) {$/;"	m	class:VaultDoor8
 urlDecode	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^    public String urlDecode(String input) {$/;"	m	class:VaultDoor5
 urlEncode	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^    public String urlEncode(byte[] input) {$/;"	m	class:VaultDoor5
 user_input	Ctfs/picoGym Exclusive/Reverse Engineering/Picker I/workfolder/picker-I.py	/^    user_input = input('==> ')$/;"	v
