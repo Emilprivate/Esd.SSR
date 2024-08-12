@@ -303,7 +303,7 @@ check_table	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/pic
 choice	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^  choice = input('==> ')$/;"	v
 create_ctf_structure	Ctfs/Tools/ctf_setup.py	/^def create_ctf_structure():$/;"	f
 decode	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/workfolder/test_exploit.py	/^def decode(encoded_data):$/;"	f
-decoded_flag	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/workfolder/test_exploit.py	/^decoded_flag = decode(encoded_data)$/;"	v
+decoded_flag	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/workfolder/test_exploit.py	/^decoded_flag = decode("picoCTF{w1{1wq8\/7376j.:}")$/;"	v
 dummy_func1	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def dummy_func1():$/;"	f
 dummy_func2	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def dummy_func2():$/;"	f
 dummy_func3	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def dummy_func3():$/;"	f

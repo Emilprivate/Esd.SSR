@@ -78,6 +78,7 @@ void main(void) {
     
     return;
 }
+```
 
 To retrieve the original flag, a Python script was used to reverse the operations applied in the main function:
 
