@@ -288,6 +288,8 @@ arg444	Ctfs/picoCTF 2022/Reverse Engineering/bloat.py/workfolder/bloat.flag.py	/
 asm1	Ctfs/picoCTF 2019/Reverse Engineering/asm1/workfolder/test.S	/^asm1:$/;"	l
 asm2	Ctfs/picoCTF 2019/Reverse Engineering/asm2/workfolder/calc.py	/^def asm2(param1, param2):$/;"	f
 asm2	Ctfs/picoCTF 2019/Reverse Engineering/asm2/workfolder/test.S	/^asm2:$/;"	l
+asm3	Ctfs/picoCTF 2019/Reverse Engineering/asm3/workfolder/main.c	/^uint16_t asm3(uint32_t param_1, uint32_t param_2, uint32_t param_3) {$/;"	f	typeref:typename:uint16_t
+asm3	Ctfs/picoCTF 2019/Reverse Engineering/asm3/workfolder/test-cleaned.S	/^asm3:$/;"	l
 asm3	Ctfs/picoCTF 2019/Reverse Engineering/asm3/workfolder/test.S	/^asm3:$/;"	l
 base64Decode	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^        public byte[] base64Decode(String input) {$/;"	m	class:VaultDoor5
 base64Encode	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^    public String base64Encode(byte[] input) {$/;"	m	class:VaultDoor5
@@ -332,7 +334,7 @@ key_str	Ctfs/picoCTF 2022/Reverse Engineering/unpackme.py/workfolder/unpackme.fl
 level_1_pw_check	Ctfs/picoCTF 2022/Reverse Engineering/patchme.py/workfolder/patchme.flag.py	/^def level_1_pw_check():$/;"	f
 load_config	Ctfs/Tools/ctf_setup.py	/^def load_config():$/;"	f
 main	Ctfs/Tools/ghidra.py	/^def main(filename, temp):$/;"	f
-main	Ctfs/picoCTF 2019/Reverse Engineering/asm3/workfolder/binary.S	/^main:$/;"	l
+main	Ctfs/picoCTF 2019/Reverse Engineering/asm3/workfolder/main.c	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
 main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-1/workfolder/VaultDoor1.java	/^    public static void main(String args[]) {$/;"	m	class:VaultDoor1
 main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/workfolder/VaultDoor3.java	/^    public static void main(String args[]) {$/;"	m	class:VaultDoor3
 main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/workfolder/VaultDoor4.java	/^    public static void main(String args[]) {$/;"	m	class:VaultDoor4
