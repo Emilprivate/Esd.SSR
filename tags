@@ -105,6 +105,7 @@ Flag	Ctfs/picoGym Exclusive/Reverse Engineering/Picker I/README.md	/^# Flag$/;"	
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/asm1/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : asm1
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/asm2/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : asm2
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/asm3/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : asm3
+Flag:	Ctfs/picoCTF 2019/Reverse Engineering/asm4/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : asm4
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : reverse_cipher
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-1/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-1
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019: Vault Door 3
@@ -162,6 +163,7 @@ Steps	Ctfs/picoGym Exclusive/Reverse Engineering/Picker I/README.md	/^# Steps$/;
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/asm1/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : asm1
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/asm2/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : asm2
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/asm3/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : asm3
+Steps:	Ctfs/picoCTF 2019/Reverse Engineering/asm4/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : asm4
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : reverse_cipher
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-1/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-1
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019: Vault Door 3
@@ -230,6 +232,7 @@ Writeup for picoCTF 2019 : Irish-Name-Repo 3	Ctfs/picoCTF 2019/Web Exploitation/
 Writeup for picoCTF 2019 : asm1	Ctfs/picoCTF 2019/Reverse Engineering/asm1/README.md	/^# Writeup for picoCTF 2019 : asm1$/;"	c
 Writeup for picoCTF 2019 : asm2	Ctfs/picoCTF 2019/Reverse Engineering/asm2/README.md	/^# Writeup for picoCTF 2019 : asm2$/;"	c
 Writeup for picoCTF 2019 : asm3	Ctfs/picoCTF 2019/Reverse Engineering/asm3/README.md	/^# Writeup for picoCTF 2019 : asm3$/;"	c
+Writeup for picoCTF 2019 : asm4	Ctfs/picoCTF 2019/Reverse Engineering/asm4/README.md	/^# Writeup for picoCTF 2019 : asm4$/;"	c
 Writeup for picoCTF 2019 : dont-use-client-side	Ctfs/picoCTF 2019/Web Exploitation/dont-use-client-side/README.md	/^# Writeup for picoCTF 2019 : dont-use-client-side$/;"	c
 Writeup for picoCTF 2019 : insp3ct0r	Ctfs/picoCTF 2019/Web Exploitation/insp3ct0r/README.md	/^# Writeup for picoCTF 2019 : insp3ct0r$/;"	c
 Writeup for picoCTF 2019 : logon	Ctfs/picoCTF 2019/Web Exploitation/logon/README.md	/^# Writeup for picoCTF 2019 : logon$/;"	c
@@ -291,6 +294,9 @@ asm2	Ctfs/picoCTF 2019/Reverse Engineering/asm2/workfolder/test.S	/^asm2:$/;"	l
 asm3	Ctfs/picoCTF 2019/Reverse Engineering/asm3/workfolder/main.c	/^uint16_t asm3(uint32_t param_1, uint32_t param_2, uint32_t param_3) {$/;"	f	typeref:typename:uint16_t
 asm3	Ctfs/picoCTF 2019/Reverse Engineering/asm3/workfolder/test-cleaned.S	/^asm3:$/;"	l
 asm3	Ctfs/picoCTF 2019/Reverse Engineering/asm3/workfolder/test.S	/^asm3:$/;"	l
+asm4	Ctfs/picoCTF 2019/Reverse Engineering/asm4/workfolder/main.c	/^int asm4(const char *param_1)$/;"	f	typeref:typename:int
+asm4	Ctfs/picoCTF 2019/Reverse Engineering/asm4/workfolder/test.S	/^asm4:$/;"	l
+asm4	Ctfs/picoCTF 2019/Reverse Engineering/asm4/workfolder/test_cleaned.S	/^asm4:$/;"	l
 base64Decode	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^        public byte[] base64Decode(String input) {$/;"	m	class:VaultDoor5
 base64Encode	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^    public String base64Encode(byte[] input) {$/;"	m	class:VaultDoor5
 call_func	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def call_func(n):$/;"	f
@@ -300,6 +306,7 @@ checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/workfolder/Vaul
 checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/workfolder/VaultDoor5.java	/^    public boolean checkPassword(String password) {$/;"	m	class:VaultDoor5
 checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-6/workfolder/VaultDoor6.java	/^    public boolean checkPassword(String password) {$/;"	m	class:VaultDoor6
 checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/workfolder/VaultDoorTraining.java	/^    public boolean checkPassword(String password) {$/;"	m	class:VaultDoorTraining
+check_condition	Ctfs/picoCTF 2019/Reverse Engineering/asm4/workfolder/test_cleaned.S	/^check_condition:$/;"	l
 check_table	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def check_table():$/;"	f
 choice	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^  choice = input('==> ')$/;"	v
 create_ctf_structure	Ctfs/Tools/ctf_setup.py	/^def create_ctf_structure():$/;"	f
@@ -329,12 +336,16 @@ get_ctfs_directory	Ctfs/Tools/ctf_setup.py	/^def get_ctfs_directory():$/;"	f
 get_existing_subdirs	Ctfs/Tools/ctf_setup.py	/^def get_existing_subdirs(path):$/;"	f
 get_func	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def get_func(n):$/;"	f
 help_text	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def help_text():$/;"	f
+inner_loop_start	Ctfs/picoCTF 2019/Reverse Engineering/asm4/workfolder/test_cleaned.S	/^inner_loop_start:$/;"	l
+jmp_loop	Ctfs/picoCTF 2019/Reverse Engineering/asm4/workfolder/test_cleaned.S	/^jmp_loop:$/;"	l
 key_base64	Ctfs/picoCTF 2022/Reverse Engineering/unpackme.py/workfolder/unpackme.flag.py	/^key_base64 = base64.b64encode(key_str.encode())$/;"	v
 key_str	Ctfs/picoCTF 2022/Reverse Engineering/unpackme.py/workfolder/unpackme.flag.py	/^key_str = 'correctstaplecorrectstaplecorrec'$/;"	v
 level_1_pw_check	Ctfs/picoCTF 2022/Reverse Engineering/patchme.py/workfolder/patchme.flag.py	/^def level_1_pw_check():$/;"	f
 load_config	Ctfs/Tools/ctf_setup.py	/^def load_config():$/;"	f
+loop_start	Ctfs/picoCTF 2019/Reverse Engineering/asm4/workfolder/test_cleaned.S	/^loop_start:$/;"	l
 main	Ctfs/Tools/ghidra.py	/^def main(filename, temp):$/;"	f
 main	Ctfs/picoCTF 2019/Reverse Engineering/asm3/workfolder/main.c	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+main	Ctfs/picoCTF 2019/Reverse Engineering/asm4/workfolder/main.c	/^int main(void){$/;"	f	typeref:typename:int
 main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-1/workfolder/VaultDoor1.java	/^    public static void main(String args[]) {$/;"	m	class:VaultDoor1
 main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/workfolder/VaultDoor3.java	/^    public static void main(String args[]) {$/;"	m	class:VaultDoor3
 main	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/workfolder/VaultDoor4.java	/^    public static void main(String args[]) {$/;"	m	class:VaultDoor4
@@ -346,6 +357,7 @@ main	Ctfs/picoGym Exclusive/Binary Exploitation/Local Target/workfolder/local-ta
 main	Ctfs/picoGym Exclusive/Binary Exploitation/Picker IV/workfolder/picker-IV.c	/^int main() {$/;"	f	typeref:typename:int
 name_sequence	Ctfs/Tools/ghidra.py	/^    def name_sequence():$/;"	f	function:uniquify	file:
 openSafe	Ctfs/picoCTF 2022/Reverse Engineering/Safe Opener/workfolder/SafeOpener.java	/^    public static boolean openSafe(String password) {$/;"	m	class:SafeOpener
+outer_loop_end	Ctfs/picoCTF 2019/Reverse Engineering/asm4/workfolder/test_cleaned.S	/^outer_loop_end:$/;"	l
 payload	Ctfs/picoCTF 2022/Reverse Engineering/unpackme.py/workfolder/unpackme.flag.py	/^payload = b'gAAAAABkzWGSzE6VQNTzvRXOXekQeW4CY6NiRkzeImo9LuYBHAYw_hagTJLJL0c-kmNsjY33IUbU2IWlqxA3/;"	v
 plain	Ctfs/picoCTF 2022/Reverse Engineering/unpackme.py/workfolder/unpackme.flag.py	/^plain = f.decrypt(payload)$/;"	v
 print_segf_message	Ctfs/picoGym Exclusive/Binary Exploitation/Picker IV/workfolder/picker-IV.c	/^void print_segf_message(){$/;"	f	typeref:typename:void
