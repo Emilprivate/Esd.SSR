@@ -90,14 +90,12 @@
 !_TAG_ROLE_DESCRIPTION!Python!unknown	indirectlyImported	/classes\/variables\/functions\/modules imported in alternative name/
 4. Aug 2024	Notes/Android-SR.md	/^## 4. Aug 2024$/;"	s	chapter:My notes collection for Android Security Research
 ADB & Frida	Notes/Android-SR.md	/^### ADB & Frida$/;"	S	section:My notes collection for Android Security Research""4. Aug 2024
-Assume `encoded_data` is the string read from the output file "rev_this"	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^# Assume `encoded_data` is the string read from the output file "rev_this"$/;"	c
 Attack strategies & Bug bounty fundamentals	Notes/Android-SR.md	/^### Attack strategies & Bug bounty fundamentals$/;"	S	section:My notes collection for Android Security Research""4. Aug 2024
 Burpsuite	Notes/Android-SR.md	/^### Burpsuite$/;"	S	section:My notes collection for Android Security Research""4. Aug 2024
 CONFIG_FILE	Ctfs/Tools/ctf_setup.py	/^CONFIG_FILE = os.path.expanduser("~\/.ctf_setup_config.json")$/;"	v
 CORRUPT_MESSAGE	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^CORRUPT_MESSAGE = 'Table corrupted. Try entering \\'reset\\' to fix it'$/;"	v
 Commands	Notes/Pwndbg.md	/^## Commands$/;"	s	chapter:My Pwndbg Notes
 Esd.SSR stands for Software Security Research	README.md	/^# Esd.SSR stands for Software Security Research$/;"	c
-Example usage:	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^# Example usage:$/;"	c
 Explanation	Ctfs/picoCTF 2022/Reverse Engineering/unpackme.py/README.md	/^## Explanation$/;"	s	chapter:Writeup for picoCTF 2022 : unpackme.py
 FUNC_TABLE_ENTRY_SIZE	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^FUNC_TABLE_ENTRY_SIZE = 32$/;"	v
 FUNC_TABLE_SIZE	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^FUNC_TABLE_SIZE = 4$/;"	v
@@ -107,7 +105,7 @@ Flag	Ctfs/picoGym Exclusive/Reverse Engineering/Picker I/README.md	/^# Flag$/;"	
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/asm1/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : asm1
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/asm2/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : asm2
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/asm3/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : asm3
-Flag:	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^## Flag:$/;"	s	chapter:Assume `encoded_data` is the string read from the output file "rev_this"
+Flag:	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : reverse_cipher
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-1/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-1
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019: Vault Door 3
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-4
@@ -207,6 +205,7 @@ Steps:	Ctfs/picoGym Exclusive/Reverse Engineering/GDB baby step 4/README.md	/^##
 Steps:	Ctfs/picoGym Exclusive/Reverse Engineering/Picker II/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoGym : Picker II
 Steps:	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoGym : Picker III
 Task:	Ctfs/picoGym Exclusive/Binary Exploitation/Local Target/README.md	/^## Task:$/;"	s	chapter:Writeup for picoGym Exclusive : Local Target
+The Python script used to decode the flag is:	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^## The Python script used to decode the flag is:$/;"	s	chapter:Writeup for picoCTF 2019 : reverse_cipher
 Tools	Notes/Android-SR.md	/^### Tools$/;"	S	section:My notes collection for Android Security Research""4. Aug 2024
 Tools:	Ctfs/picoCTF 2022/Reverse Engineering/unpackme.py/README.md	/^## Tools:$/;"	s	chapter:Writeup for picoCTF 2022 : unpackme.py
 Tools:	Ctfs/picoCTF 2023/Reverse Engineering/Reverse/README.md	/^## Tools:$/;"	s	chapter:Writeup for picoCTF 2023 : Reverse

@@ -82,13 +82,13 @@ void main(void) {
 
 To retrieve the original flag, a Python script was used to reverse the operations applied in the main function:
 
-    - First 8 bytes: These are directly read from the encoded output.
-    - Next 15 bytes:
-        - For bytes at even indices: Subtract 5 from the ASCII value to revert to the original character.
-        - For bytes at odd indices: Add 2 to the ASCII value to revert to the original character.
-    - Last byte: This byte is directly read from the encoded output.
+- First 8 bytes: These are directly read from the encoded output.
+- Next 15 bytes:
+    - For bytes at even indices: Subtract 5 from the ASCII value to revert to the original character.
+    - For bytes at odd indices: Add 2 to the ASCII value to revert to the original character.
+- Last byte: This byte is directly read from the encoded output.
 
-The Python script used to decode the flag is:
+## The Python script used to decode the flag is:
 
 ```python
 def decode(encoded_data):
@@ -116,6 +116,5 @@ decoded_flag = decode(encoded_data)
 print(decoded_flag)
 ```
 
-```
 ## Flag:
 ``` picoCTF{r3v3rs312528e05} ```
