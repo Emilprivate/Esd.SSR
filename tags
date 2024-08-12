@@ -90,12 +90,14 @@
 !_TAG_ROLE_DESCRIPTION!Python!unknown	indirectlyImported	/classes\/variables\/functions\/modules imported in alternative name/
 4. Aug 2024	Notes/Android-SR.md	/^## 4. Aug 2024$/;"	s	chapter:My notes collection for Android Security Research
 ADB & Frida	Notes/Android-SR.md	/^### ADB & Frida$/;"	S	section:My notes collection for Android Security Research""4. Aug 2024
+Assume `encoded_data` is the string read from the output file "rev_this"	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^# Assume `encoded_data` is the string read from the output file "rev_this"$/;"	c
 Attack strategies & Bug bounty fundamentals	Notes/Android-SR.md	/^### Attack strategies & Bug bounty fundamentals$/;"	S	section:My notes collection for Android Security Research""4. Aug 2024
 Burpsuite	Notes/Android-SR.md	/^### Burpsuite$/;"	S	section:My notes collection for Android Security Research""4. Aug 2024
 CONFIG_FILE	Ctfs/Tools/ctf_setup.py	/^CONFIG_FILE = os.path.expanduser("~\/.ctf_setup_config.json")$/;"	v
 CORRUPT_MESSAGE	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^CORRUPT_MESSAGE = 'Table corrupted. Try entering \\'reset\\' to fix it'$/;"	v
 Commands	Notes/Pwndbg.md	/^## Commands$/;"	s	chapter:My Pwndbg Notes
 Esd.SSR stands for Software Security Research	README.md	/^# Esd.SSR stands for Software Security Research$/;"	c
+Example usage:	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^# Example usage:$/;"	c
 Explanation	Ctfs/picoCTF 2022/Reverse Engineering/unpackme.py/README.md	/^## Explanation$/;"	s	chapter:Writeup for picoCTF 2022 : unpackme.py
 FUNC_TABLE_ENTRY_SIZE	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^FUNC_TABLE_ENTRY_SIZE = 32$/;"	v
 FUNC_TABLE_SIZE	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^FUNC_TABLE_SIZE = 4$/;"	v
@@ -105,6 +107,7 @@ Flag	Ctfs/picoGym Exclusive/Reverse Engineering/Picker I/README.md	/^# Flag$/;"	
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/asm1/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : asm1
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/asm2/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : asm2
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/asm3/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : asm3
+Flag:	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^## Flag:$/;"	s	chapter:Assume `encoded_data` is the string read from the output file "rev_this"
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-1/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-1
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019: Vault Door 3
 Flag:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/README.md	/^## Flag:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-4
@@ -151,6 +154,7 @@ Other resources	Notes/Android-SR.md	/^## Other resources$/;"	s	chapter:My notes 
 PROJECT_DIRECTORY	Ctfs/Tools/ghidra.py	/^PROJECT_DIRECTORY = '\/tmp'$/;"	v
 Python script:	Ctfs/picoGym Exclusive/Reverse Engineering/ASCII FTW/README.md	/^## Python script:$/;"	s	chapter:Writeup for picoGym Exclusive : ASCII FTW
 References	Notes/Pwndbg.md	/^## References$/;"	s	chapter:My Pwndbg Notes
+Reversed `main` function:	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^## Reversed `main` function:$/;"	s	chapter:Writeup for picoCTF 2019 : reverse_cipher
 SafeOpener	Ctfs/picoCTF 2022/Reverse Engineering/Safe Opener/workfolder/SafeOpener.java	/^public class SafeOpener {$/;"	c
 Script injection to bypass certification pinning.	Notes/Android-SR.md	/^### Script injection to bypass certification pinning.$/;"	S	section:My notes collection for Android Security Research""4. Aug 2024
 Steps	Ctfs/picoCTF 2022/Reverse Engineering/Fresh Java/README.md	/^## Steps$/;"	s	chapter:Writeup for picoCTF-2022 : Fresh Java
@@ -160,6 +164,7 @@ Steps	Ctfs/picoGym Exclusive/Reverse Engineering/Picker I/README.md	/^# Steps$/;
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/asm1/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : asm1
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/asm2/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : asm2
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/asm3/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : asm3
+Steps:	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : reverse_cipher
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-1/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-1
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-3/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019: Vault Door 3
 Steps:	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/README.md	/^## Steps:$/;"	s	chapter:Writeup for picoCTF 2019 : vault-door-4
@@ -230,6 +235,7 @@ Writeup for picoCTF 2019 : dont-use-client-side	Ctfs/picoCTF 2019/Web Exploitati
 Writeup for picoCTF 2019 : insp3ct0r	Ctfs/picoCTF 2019/Web Exploitation/insp3ct0r/README.md	/^# Writeup for picoCTF 2019 : insp3ct0r$/;"	c
 Writeup for picoCTF 2019 : logon	Ctfs/picoCTF 2019/Web Exploitation/logon/README.md	/^# Writeup for picoCTF 2019 : logon$/;"	c
 Writeup for picoCTF 2019 : picobrowser	Ctfs/picoCTF 2019/Web Exploitation/picobrowser/README.md	/^# Writeup for picoCTF 2019 : picobrowser$/;"	c
+Writeup for picoCTF 2019 : reverse_cipher	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/README.md	/^# Writeup for picoCTF 2019 : reverse_cipher$/;"	c
 Writeup for picoCTF 2019 : vault-door-1	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-1/README.md	/^# Writeup for picoCTF 2019 : vault-door-1$/;"	c
 Writeup for picoCTF 2019 : vault-door-4	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-4/README.md	/^# Writeup for picoCTF 2019 : vault-door-4$/;"	c
 Writeup for picoCTF 2019 : vault-door-5	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-5/README.md	/^# Writeup for picoCTF 2019 : vault-door-5$/;"	c
@@ -296,6 +302,8 @@ checkPassword	Ctfs/picoCTF 2019/Reverse Engineering/vault-door-training/workfold
 check_table	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def check_table():$/;"	f
 choice	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^  choice = input('==> ')$/;"	v
 create_ctf_structure	Ctfs/Tools/ctf_setup.py	/^def create_ctf_structure():$/;"	f
+decode	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/workfolder/test_exploit.py	/^def decode(encoded_data):$/;"	f
+decoded_flag	Ctfs/picoCTF 2019/Reverse Engineering/reverse_cipher/workfolder/test_exploit.py	/^decoded_flag = decode(encoded_data)$/;"	v
 dummy_func1	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def dummy_func1():$/;"	f
 dummy_func2	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def dummy_func2():$/;"	f
 dummy_func3	Ctfs/picoGym Exclusive/Reverse Engineering/Picker III/workfolder/picker-III.py	/^def dummy_func3():$/;"	f
