@@ -25,7 +25,7 @@ int asm4(const char *param_1)
 }
 ```
 
-After that we just had to setup the `main` function similar to `asm3`, call `asm4` using the give argument from the challenge and we should get the flag.
+After that we just had to setup the `main` function similar to `asm3`, call `asm4` using the given argument from the challenge and we should get the flag.
 
 ```C
 #include <stdio.h>
