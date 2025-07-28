@@ -12,4 +12,4 @@ A collection of my Pwndbg notes for reverse engineering and binary exploitation.
 - ```lay asm``` lays out the entire asm of the application presumably.
 - ```break <address>``` sets a breakpoint at the address
 - ```run``` runs the binary
-- ```jump <address>``` jumps to the addressi.
+- ```jump <address>``` jumps to the address.
